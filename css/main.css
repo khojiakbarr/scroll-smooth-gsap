@@ -30,8 +30,11 @@ h6 {
   font-family: outfit-c;
 }
 /** Will change */
-.content, .hero, .main-header, .gallery >*{
-will-change: transform;
+.content,
+.hero,
+.main-header,
+.gallery > * {
+  will-change: transform;
 }
 body {
   background-image: url(../img/bg.jpg);
@@ -77,7 +80,7 @@ body {
 }
 
 .gallery__item {
-  max-width: calc(var(--index) * 50);
+  max-width: calc(var(--index) * 33);
   margin-bottom: var(--gallery-gap);
   max-height: 180vh;
   border-radius: 8px;
@@ -92,17 +95,17 @@ body {
 }
 
 .text-block {
-  width: calc(var(--index) *22);
+  width: calc(var(--index) * 22);
   color: var(--color-text);
   position: relative;
 }
 
-.text-block__h{
+.text-block__h {
   font-size: 2rem;
   line-height: 2.4rem;
   color: var(--color-head);
   margin-bottom: 1.5rem;
 }
-.text-block__p{
+.text-block__p {
   line-height: 1.7rem;
 }
